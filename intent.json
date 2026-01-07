@@ -1,0 +1,640 @@
+{
+  "intents": [
+    {
+      "intent": "greeting",
+      "text": [
+        "Hi",
+        "Hello",
+        "How are you?",
+        "Is anyone there?",
+        "Good day"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! What can I do for you?",
+        "Greetings! How may I help you?"
+      ]
+    },
+    {
+      "intent": "goodbye",
+      "text": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Take care"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later! Take care!",
+        "Farewell! Looking forward to our next chat."
+      ]
+    },
+    {
+      "intent": "thanks",
+      "text": [
+        "Thanks",
+        "Thank you",
+        "Appreciate it",
+        "Much obliged"
+      ],
+      "responses": [
+        "You're welcome!",
+        "No problem, happy to help!",
+        "Anytime! Let me know if you have more questions."
+      ]
+    },
+    {
+      "intent": "no_answer",
+      "text": [
+        "Don't know",
+        "No idea",
+        "Not sure",
+        "Can't say"
+      ],
+      "responses": [
+        "I'm sorry, I don't have the information you're looking for.",
+        "Unfortunately, I can't help with that.",
+        "I don't have an answer to that right now."
+      ]
+    },
+    {
+      "intent": "bd_team_overview",
+      "text": [
+        "Tell me about Bangladesh men's cricket",
+        "Who are the Tigers?",
+        "Bangladesh men's cricket overview",
+        "What is BCB?",
+        "Bangla Tigers info"
+      ],
+      "responses": [
+        "Bangladesh men’s national team is administered by the Bangladesh Cricket Board (BCB). Nickname: The Tigers. BCB founded in 1972 (as BCCB), renamed in 2007; HQ: Sher‑e‑Bangla National Cricket Stadium, Mirpur, Dhaka; site: tigercricket.com.bd.",
+        "The Tigers are Bangladesh’s men’s team, run by the BCB (est. 1972, renamed 2007), headquartered at Sher‑e‑Bangla, Mirpur. Website: tigercricket.com.bd."
+      ]
+    },
+    {
+      "intent": "bd_bcb_details",
+      "text": [
+        "Bangladesh Cricket Board details",
+        "Where is BCB located?",
+        "BCB website",
+        "BCB history"
+      ],
+      "responses": [
+        "BCB origin: 1972 as BCCB; renamed to Bangladesh Cricket Board in 2007. HQ: Sher‑e‑Bangla National Cricket Stadium, Mirpur, Dhaka. Website: tigercricket.com.bd.",
+        "The BCB runs Bangladesh cricket; HQ is at Sher‑e‑Bangla, Mirpur. Founded 1972, current name since 2007. Official site: tigercricket.com.bd."
+      ]
+    },
+    {
+      "intent": "bd_rankings_nov2025",
+      "text": [
+        "Bangladesh ICC rankings",
+        "What is Bangladesh ranking now?",
+        "Test ODI T20I ranking Bangladesh",
+        "Where does Bangladesh stand in ICC rankings?"
+      ],
+      "responses": [
+        "As of Nov 2025: Test 9th, ODI 10th, T20I 9th. ODI 10th sits outside the top‑8 automatic qualification for the 2027 World Cup (hosts + top 8).",
+        "Rankings (Nov 2025): Tests 9, ODIs 10, T20Is 9. ODI position is just outside the automatic 2027 CWC spots."
+      ]
+    },
+    {
+      "intent": "bd_captains_history",
+      "text": [
+        "Bangladesh previous captains list",
+        "Who was the first captain of Bangladesh?",
+        "List of all Bangladesh cricket captains",
+        "Former captains of Bangladesh team",
+        "Test ODI T20 captains history"
+      ],
+      "responses": [
+        "Here is the list of key Bangladesh Captains:\n\n**Test Captains:**\n1. Naimur Rahman (Inaugural, 2000)\n2. Khaled Mashud\n3. Khaled Mahmud\n4. Habibul Bashar (First Test win)\n5. Mohammad Ashraful\n6. Shakib Al Hasan\n7. Mushfiqur Rahim (Most Tests as captain)\n8. Mahmudullah\n9. Mominul Haque\n10. Najmul Hossain Shanto\n\n**ODI Captains (Notable):**\n1. Gazi Ashraf (First ODI captain, 1986)\n2. Minhajul Abedin Nannu\n3. Akram Khan (1997 ICC Trophy)\n4. Aminul Islam Bulbul (1999 WC)\n5. Habibul Bashar\n6. Mashrafe Mortaza (Most successful, 50 wins)\n7. Tamim Iqbal\n8. Shakib Al Hasan\n\n**T20I Captains:**\n1. Shahriar Nafees (First T20I)\n2. Mashrafe Mortaza\n3. Shakib Al Hasan\n4. Mahmudullah\n5. Najmul Hossain Shanto\n6. Litton Das (Current)",
+        "The history of Bangladesh captains:\n* **First ODI Captain:** Gazi Ashraf (1986)\n* **First Test Captain:** Naimur Rahman Durjoy (2000)\n* **First T20I Captain:** Shahriar Nafees (2006)\n* **Most Successful (ODI):** Mashrafe Mortaza\n* **Most Successful (Test):** Mushfiqur Rahim/Shakib Al Hasan\n* **Other Legends:** Akram Khan, Aminul Islam, Habibul Bashar, Tamim Iqbal."
+      ]
+    },
+    {
+      "intent": "bd_captains_2025",
+      "text": [
+        "Who is Bangladesh cricket captain?",
+        "Bangladesh split captaincy",
+        "Test captain Bangladesh",
+        "ODI captain Bangladesh",
+        "T20I captain Bangladesh"
+      ],
+      "responses": [
+        "Split captaincy (2025): Test – Najmul Hossain Shanto (to WTC 2027), ODI – Mehidy Hasan Miraz, T20I – Litton Das.",
+        "Captains in 2025: Shanto (Tests), Miraz (ODIs), Litton (T20Is)."
+      ]
+    },
+    {
+      "intent": "bd_coaches_2025",
+      "text": [
+        "Who are Bangladesh coaches?",
+        "Bangladesh head coach 2025",
+        "Bangladesh batting coach",
+        "Bangladesh bowling coach",
+        "Ashraful interim coach"
+      ],
+      "responses": [
+        "Coaches (2025): Head – Phil Simmons (to 2027); Batting – Mohammad Salahuddin; Pace – Shaun Tait; Spin – Mushtaq Ahmed. Mohammad Ashraful served as interim batting coach for the Nov 2025 Ireland series.",
+        "Bangladesh coaching: Phil Simmons (head), Salahuddin (batting), Tait (pace), Mushtaq (spin). Ashraful was interim batting coach vs Ireland (Nov 2025)."
+      ]
+    },
+    {
+      "intent": "bd_squad_ct2025",
+      "text": [
+        "Champions Trophy 2025 Bangladesh squad",
+        "Who was in CT 2025 squad?",
+        "Bangladesh CT team list 2025"
+      ],
+      "responses": [
+        "CT 2025 (ODI) squad: Shanto (C), Soumya, Tanzid Hasan Tamim, Parvez Emon, Hridoy, Mushfiqur, Mahmudullah, Jaker Ali, Miraz (VC), Rishad, Nasum, Taskin, Mustafizur, Tanzim Sakib, Nahid Rana.",
+        "Bangladesh CT 2025: Najmul Hossain Shanto (C), Mehidy Hasan Miraz (VC), Mushfiqur Rahim, Mahmudullah, Tawhid Hridoy, Soumya Sarkar, Tanzid Hasan, Parvez Emon, Jaker Ali, Rishad, Nasum, Taskin, Mustafizur, Tanzim Sakib, Nahid Rana."
+      ]
+    },
+    {
+      "intent": "bd_squad_asia_cup_2025_t20i",
+      "text": [
+        "Asia Cup 2025 Bangladesh squad",
+        "Bangladesh T20 squad for Asia Cup 2025",
+        "Asia Cup captain Bangladesh 2025"
+      ],
+      "responses": [
+        "Asia Cup 2025 (T20I): Litton Das (C, wk), Tanzid Hasan, Parvez Emon, Saif Hassan, Hridoy, Jaker Ali (wk), Shamim Hossain, Nurul Hasan Sohan (wk), Mahedi Hasan, Rishad, Nasum, Mustafizur, Tanzim Sakib, Taskin, Shoriful, Shaif Uddin. Standby: Soumya, Miraz, Tanvir Islam, Hasan Mahmud.",
+        "Led by Litton Das, Bangladesh’s Asia Cup 2025 (T20I) squad featured pace: Mustafizur, Taskin, Shoriful, Tanzim; spin: Rishad, Nasum, Mahedi; plus Hridoy, Emon, Tanzid, Shamim, Sohan, Jaker Ali, Saif Hassan, Shaif Uddin."
+      ]
+    },
+    {
+      "intent": "bd_squad_tests_ireland_nov2025",
+      "text": [
+        "Bangladesh Test squad vs Ireland 2025",
+        "Ireland Test series squad November 2025",
+        "Who is in the Bangladesh Test team vs Ireland?"
+      ],
+      "responses": [
+        "Test squad vs Ireland (Nov 2025): Shanto (C), Shadman, Mahmudul Hasan Joy, Mominul, Mushfiqur, Litton, Jaker Ali, Miraz, Taijul, Syed Khaled, Hasan Mahmud, Nahid Rana, Ebadot, Hasan Murad.",
+        "Ireland Tests (Nov 2025) squad includes: Shanto, Shadman, Joy, Mominul, Mushfiqur, Litton, Jaker Ali, Miraz, Taijul, Khaled, Hasan Mahmud, Nahid Rana, Ebadot, Hasan Murad."
+      ]
+    },
+    {
+      "intent": "bd_fixtures_ireland_2025",
+      "text": [
+        "Bangladesh vs Ireland fixtures 2025",
+        "Ireland tour of Bangladesh schedule 2025",
+        "When are the Ireland matches?"
+      ],
+      "responses": [
+        "Ireland tour (Bangladesh) 2025: Tests – Nov 11–15 (Sylhet), Nov 19–23 (Mirpur). T20Is – Nov 27 & 29 (Chattogram), Dec 2 (Mirpur).",
+        "Fixtures: 1st Test Nov 11–15 Sylhet; 2nd Test Nov 19–23 Mirpur; T20Is Nov 27 & 29 in Chattogram, Dec 2 in Mirpur."
+      ]
+    },
+    {
+      "intent": "bd_results_tests_2024_2025",
+      "text": [
+        "Bangladesh recent Test results",
+        "How did Bangladesh do in Tests 2024 2025?",
+        "Bangladesh Test series results"
+      ],
+      "responses": [
+        "Tests 2024–2025: 2–0 win in Pakistan (Aug 2024); 0–2 losses vs India (Sep 2024) and South Africa (Oct 2024); 1–1 draws vs West Indies (Nov 2024) and Zimbabwe (2025); 0–1 loss vs Sri Lanka (Jun 2025).",
+        "Standout: historic 2–0 away Test series win in Pakistan (Aug 2024); mixed home results through 2025."
+      ]
+    },
+    {
+      "intent": "bd_results_odi_2024_2025",
+      "text": [
+        "Bangladesh ODI results 2024 2025",
+        "How is Bangladesh doing in ODIs?",
+        "Recent ODI series Bangladesh"
+      ],
+      "responses": [
+        "ODIs 2024–2025: 2–1 win vs Sri Lanka (Mar 2024); losses 0–3 vs WI (Dec 2024), 1–2 vs AFG (Nov 2024), winless CT 2025; 1–2 vs SL (Jul 2025); 0–3 vs AFG (Oct 2025); 1–1 vs WI (Oct 2025).",
+        "ODI form dipped in away/neutral venues in 2025, impacting rankings and 2027 CWC qualification push."
+      ]
+    },
+    {
+      "intent": "bd_results_t20i_2024_2025",
+      "text": [
+        "Bangladesh T20 results 2025",
+        "Recent T20I series Bangladesh",
+        "How did Bangladesh play T20s?"
+      ],
+      "responses": [
+        "T20Is 2025: 3–0 win vs Afghanistan (UAE), 2–0 win vs Netherlands; mixed results vs Sri Lanka, Pakistan, West Indies; win vs Hong Kong and UAE.",
+        "T20I summary: strong vs AFG and NED in 2025; series loss 1–2 to WI (Oct 2025)."
+      ]
+    },
+    {
+      "intent": "bd_history_path_membership",
+      "text": [
+        "How did Bangladesh get Test status?",
+        "Bangladesh cricket milestones",
+        "Bangladesh ICC membership history"
+      ],
+      "responses": [
+        "Milestones: BCCB formed 1972; ICC Associate 1977; ICC Trophy win 1997; first World Cup 1999; ICC Full Member and Test status on 26 Jun 2000.",
+        "Path to Tests: 1977 ICC Associate → 1997 ICC Trophy win → 1999 World Cup debut → Full Membership in 2000."
+      ]
+    },
+    {
+      "intent": "bd_first_matches",
+      "text": [
+        "Bangladesh first ODI",
+        "Bangladesh first Test",
+        "Bangladesh first T20I",
+        "Inaugural matches Bangladesh cricket"
+      ],
+      "responses": [
+        "First ODI: vs Pakistan, 31 Mar 1986 (Asia Cup). First Test: vs India, Nov 10–13, 2000 (Dhaka). First T20I: vs Zimbabwe, 28 Nov 2006 (Khulna) – won by 43 runs.",
+        "Debuts: ODI 1986 vs Pakistan; Test 2000 vs India; T20I 2006 vs Zimbabwe (won)."
+      ]
+    },
+    {
+      "intent": "bd_major_first_victories",
+      "text": [
+        "Bangladesh first big wins",
+        "Bangladesh first Test win",
+        "First ODI win vs Australia",
+        "First 10 wicket wins Bangladesh"
+      ],
+      "responses": [
+        "First Test win: vs Zimbabwe, Jan 2005 (Chittagong). First Test series win: vs Zimbabwe (2005). First overseas Test series win: 2–0 vs West Indies (2009). First ODI win vs Australia: Cardiff 2005 (Ashraful 100). First 10‑wicket wins: ODI vs Ireland (2023), Test vs Pakistan (2024), T20I vs USA (2024).",
+        "Notables: ODI win vs India (2004), vs Australia (2005), multi‑nation trophy: 2019 Ireland tri‑series."
+      ]
+    },
+    {
+      "intent": "bd_event_wc_1999",
+      "text": [
+        "Bangladesh 1999 ICC Champions Trophy details",
+        "Who was the captain in 1999?",
+        "Bangladesh 1999 World Cup squad",
+        "Coach of Bangladesh in 1999",
+        "1999 cricket team list",
+        "Did Bangladesh win in 1999?"
+      ],
+      "responses": [
+        "In 1999, Bangladesh competed in their first World Cup (there was no Champions Trophy that year). Captain: Aminul Islam Bulbul. Coach: Gordon Greenidge. Squad includes: Akram Khan, Minhajul Abedin Nannu, Khaled Mahmud Sujon, Khaled Mashud Pilot, Mohammad Rafique, Naimur Rahman Durjoy, Enamul Haque Moni, Hasibul Hossain, Shahriar Hossain, and Mehrab Hossain. Historic Moment: Beat Pakistan by 62 runs.",
+        "The major event of 1999 was the World Cup in England. Captain: Aminul Islam Bulbul. Coach: Gordon Greenidge. Key Players: Akram Khan, Minhajul Abedin, Khaled Mahmud. Result: Wins against Scotland and Pakistan."
+      ]
+    },
+    {
+      "intent": "bd_event_ct_2000",
+      "text": [
+        "Bangladesh first Champions Trophy squad",
+        "ICC Knockout Trophy 2000 Bangladesh",
+        "Who was captain in 2000 Champions Trophy?",
+        "Bangladesh vs England 2000 result"
+      ],
+      "responses": [
+        "Bangladesh's ICC Champions Trophy debut (then called ICC KnockOut) was in Oct 2000 vs England. Captain: Naimur Rahman Durjoy. Squad: Javed Omar, Shahriar Hossain, Habibul Bashar, Akram Khan, Aminul Islam, Al Sahariar, Khaled Mashud, Mohammad Rafique. Result: Lost by 8 wickets.",
+        "In the 2000 ICC KnockOut (Champions Trophy), Bangladesh was led by Naimur Rahman Durjoy. They played one match against England in Nairobi and lost."
+      ]
+    },
+    {
+      "intent": "bd_tournaments_wc",
+      "text": [
+        "Bangladesh World Cup record",
+        "Best World Cup performance Bangladesh",
+        "How many World Cups Bangladesh played?"
+      ],
+      "responses": [
+        "ODI World Cup: first appearance 1999; 7 editions (1999–2023). Best: Quarter‑finals in 2015; Super Eights in 2007 with a famous win over India; finished 8th in 2019.",
+        "World Cups played: 7 (1999, 2003, 2007, 2011, 2015, 2019, 2023). Best finish: 2015 QFs."
+      ]
+    },
+    {
+      "intent": "bd_tournaments_t20wc",
+      "text": [
+        "Bangladesh T20 World Cup record",
+        "Best T20 World Cup result Bangladesh"
+      ],
+      "responses": [
+        "T20 World Cup: first in 2007; appeared in every edition through 2024. Best: Super 8s in 2007 and 2024. Bangladesh hosted the 2014 event.",
+        "Bangladesh reached the Super 8s twice (2007, 2024); hosts in 2014."
+      ]
+    },
+    {
+      "intent": "bd_tournaments_asia_cup",
+      "text": [
+        "Bangladesh Asia Cup record",
+        "How many times runner up Asia Cup Bangladesh",
+        "Asia Cup best result Bangladesh"
+      ],
+      "responses": [
+        "Asia Cup: 16 appearances; runners‑up 3 times – 2012 (ODI), 2016 (T20I), 2018 (ODI).",
+        "Best Asia Cup finish: runners‑up in 2012, 2016, 2018."
+      ]
+    },
+    {
+      "intent": "bd_records_totals",
+      "text": [
+        "Bangladesh highest totals",
+        "Bangladesh record scores",
+        "Team batting records Bangladesh"
+      ],
+      "responses": [
+        "Highest team totals: Test 638 (vs SL, Galle 2013); ODI 349/6 (vs IRE, Sylhet 2023); T20I 215/5 (vs SL, Colombo 2018).",
+        "Record highs: Test 638; ODI 349/6; T20I 215/5."
+      ]
+    },
+    {
+      "intent": "bd_records_lowest_totals",
+      "text": [
+        "Bangladesh lowest totals",
+        "Lowest score Bangladesh cricket"
+      ],
+      "responses": [
+        "Lowest totals: Test 43 all out (vs WI, 2018); ODI 58 all out (vs WI 2011; vs IND 2014); T20I 70 all out (vs NZ, 2016).",
+        "Team lows: Test 43; ODI 58; T20I 70."
+      ]
+    },
+    {
+      "intent": "bd_records_largest_margins",
+      "text": [
+        "Bangladesh largest wins",
+        "Biggest victory margins Bangladesh"
+      ],
+      "responses": [
+        "Largest wins: Test by runs – 546 vs Afghanistan (Mirpur, 2023); Test by wickets – 10 vs Pakistan (Rawalpindi, 2024); ODI by runs – 163 vs Sri Lanka (Dhaka, 2018); ODI by wickets – 10 vs Ireland (Sylhet, 2023); T20I by runs – 84 vs PNG (2021); T20I by wickets – 10 vs USA (2024).",
+        "Record margins: 546‑run Test win (AFG 2023) and first 10‑wicket wins in ODI (IRE 2023) and Test (PAK 2024)."
+      ]
+    },
+    {
+      "intent": "bd_leaders_batting_test",
+      "text": [
+        "Most Test runs Bangladesh",
+        "Bangladesh Test batting leaders",
+        "Top Test scorers Bangladesh"
+      ],
+      "responses": [
+        "Most Test runs: Mushfiqur Rahim 6,328; Tamim Iqbal 5,134; Shakib Al Hasan 4,609; Mominul Haque 4,412 (approx).",
+        "Leaders (Tests): Mushfiqur, Tamim, Shakib at the top (as of late 2025)."
+      ]
+    },
+    {
+      "intent": "bd_leaders_batting_odi",
+      "text": [
+        "Most ODI runs Bangladesh",
+        "Bangladesh ODI batting leaders",
+        "Top ODI scorers Bangladesh"
+      ],
+      "responses": [
+        "Most ODI runs: Tamim Iqbal 8,357; Mushfiqur Rahim 7,795; Shakib Al Hasan 7,570; Mahmudullah 5,689.",
+        "ODI run leaders: Tamim, Mushfiqur, Shakib lead the charts."
+      ]
+    },
+    {
+      "intent": "bd_leaders_batting_t20i",
+      "text": [
+        "Most T20I runs Bangladesh",
+        "Bangladesh T20I batting leaders",
+        "Top T20 scorers Bangladesh"
+      ],
+      "responses": [
+        "Most T20I runs: Litton Das ~2,590; Shakib Al Hasan 2,551; Mahmudullah 2,444; Tamim Iqbal ~1,700+.",
+        "T20I runs: Litton recently moved top; Shakib and Mahmudullah follow."
+      ]
+    },
+    {
+      "intent": "bd_leaders_bowling_test",
+      "text": [
+        "Most Test wickets Bangladesh",
+        "Bangladesh Test bowling leaders",
+        "Top Test wicket takers Bangladesh"
+      ],
+      "responses": [
+        "Most Test wickets: Shakib Al Hasan 246; Taijul Islam ~218; Mehidy Hasan Miraz 205; Mohammad Rafique 100.",
+        "Test wicket leaders: Shakib leads, followed by Taijul and Mehidy."
+      ]
+    },
+    {
+      "intent": "bd_leaders_bowling_odi",
+      "text": [
+        "Most ODI wickets Bangladesh",
+        "Bangladesh ODI bowling leaders",
+        "Top ODI wicket takers Bangladesh"
+      ],
+      "responses": [
+        "Most ODI wickets: Shakib Al Hasan 317; Mashrafe Mortaza 269; Abdur Razzak 207; Mustafizur Rahman 174; Taskin Ahmed 117.",
+        "ODI wickets: Shakib heads the list; Mashrafe second."
+      ]
+    },
+    {
+      "intent": "bd_leaders_bowling_t20i",
+      "text": [
+        "Most T20I wickets Bangladesh",
+        "Bangladesh T20I bowling leaders",
+        "Top T20 wicket takers Bangladesh"
+      ],
+      "responses": [
+        "Most T20I wickets: Shakib Al Hasan 149; Mustafizur Rahman ~132–155; Taskin Ahmed ~103–106 (ranges reflect 2025 updates).",
+        "T20I wickets: Shakib leads; Mustafizur and Taskin next."
+      ]
+    },
+    {
+      "intent": "bd_player_shakib",
+      "text": [
+        "Tell me about Shakib Al Hasan",
+        "Shakib records",
+        "Shakib career stats Bangladesh"
+      ],
+      "responses": [
+        "Shakib Al Hasan (b. 1987) – left‑hand bat, left‑arm orthodox. Bangladesh’s greatest all‑rounder; leading wicket‑taker in Tests (246), ODIs (317), T20Is (149). Top‑3 run‑scorer across formats. Retired from T20Is in 2024; Tests in 2024; set full retirement after 2025 Champions Trophy.",
+        "Career bests: Test 217, ODI 134*, T20I 84; best bowling 7/36 (Test), 5/29 (ODI), 5/20 (T20I)."
+      ]
+    },
+    {
+      "intent": "bd_player_tamim",
+      "text": [
+        "Tell me about Tamim Iqbal",
+        "Tamim records",
+        "Tamim career Bangladesh"
+      ],
+      "responses": [
+        "Tamim Iqbal (b. 1989) – left‑hand opener. Bangladesh’s leading ODI run‑scorer (8,357) and most ODI hundreds (14). Highest T20I score for Bangladesh (103*). Retired from internationals; led Fortune Barishal to BPL titles in 2024 and 2025.",
+        "Career highs: Test 206, ODI 158, T20I 103*."
+      ]
+    },
+    {
+      "intent": "bd_player_mushfiqur",
+      "text": [
+        "Tell me about Mushfiqur Rahim",
+        "Mushfiqur records",
+        "Mushfiqur Test stats"
+      ],
+      "responses": [
+        "Mushfiqur Rahim (b. 1987) – wicket‑keeper batter. Bangladesh’s Test run leader (6,328) and holder of the highest Test score (219*). Most Test (127) and ODI (299) dismissals for Bangladesh. Retired from ODIs after CT 2025; set to reach 100 Tests in Nov 2025.",
+        "Key feats: first Bangladeshi with three Test double hundreds; ODI runs 7,795."
+      ]
+    },
+    {
+      "intent": "bd_player_mashrafe",
+      "text": [
+        "Tell me about Mashrafe Mortaza",
+        "Mashrafe records",
+        "Narail Express Bangladesh"
+      ],
+      "responses": [
+        "Mashrafe Mortaza (b. 1983) – right‑arm fast, ex‑captain. Bangladesh’s most successful ODI captain (50 wins). Joint‑best ODI bowling for Bangladesh: 6/26 vs Kenya (2006). ODI wickets: 269.",
+        "Career: ODI 220 matches, 270 wickets; nickname: Narail Express."
+      ]
+    },
+    {
+      "intent": "bd_player_aminul",
+      "text": [
+        "Tell me about Aminul Islam Bulbul",
+        "Bangladesh first Test century",
+        "Aminul Islam records"
+      ],
+      "responses": [
+        "Aminul Islam Bulbul (b. 1968) – pioneer, former captain. Scored Bangladesh’s first Test century: 145 vs India in their inaugural Test (2000). Later worked in ICC cricket development.",
+        "Bulbul’s Test best: 145; ODI best: 70."
+      ]
+    },
+    {
+      "intent": "bd_player_akram",
+      "text": [
+        "Tell me about Akram Khan",
+        "Akram Khan records",
+        "1997 ICC Trophy captain Bangladesh"
+      ],
+      "responses": [
+        "Akram Khan (b. 1968) – former captain; led Bangladesh to the 1997 ICC Trophy, enabling 1999 World Cup qualification. Played in the inaugural Test (2000); later BCB chief selector.",
+        "Akram ODI runs: 976; Tests: 259."
+      ]
+    },
+    {
+      "intent": "bd_player_shanto",
+      "text": [
+        "Tell me about Najmul Hossain Shanto",
+        "Shanto captain Bangladesh",
+        "Shanto records"
+      ],
+      "responses": [
+        "Najmul Hossain Shanto – left‑hand batter, current Test captain. Only Bangladeshi with centuries in both innings of a Test on two separate occasions; top run‑scorer for Bangladesh at T20WC 2022 (180).",
+        "Career (2025): Tests ~2,189 runs (HS 163); ODIs ~1,705 (HS 122*); T20Is ~987."
+      ]
+    },
+    {
+      "intent": "bd_player_litton",
+      "text": [
+        "Tell me about Litton Das",
+        "Litton T20I captain",
+        "Litton records"
+      ],
+      "responses": [
+        "Litton Das – wicket‑keeper batter, current T20I captain. Bangladesh’s top T20I run‑scorer (~2,590). Holds Bangladesh’s highest ODI score (176 vs Zimbabwe, 2020).",
+        "Career (2025): Tests ~2,929 runs; ODIs ~2,569; T20Is ~2,556–2,590."
+      ]
+    },
+    {
+      "intent": "bd_player_mehidy",
+      "text": [
+        "Tell me about Mehidy Hasan Miraz",
+        "Miraz ODI captain",
+        "Miraz records"
+      ],
+      "responses": [
+        "Mehidy Hasan Miraz – all‑rounder, current ODI captain. Fastest Bangladeshi to 2,000 Test runs and 200 wickets (53 matches). Third‑most Test wickets (205).",
+        "Career bests: Test 6/60; ODI 6/43; T20I 5/22."
+      ]
+    },
+    {
+      "intent": "bd_player_taskin",
+      "text": [
+        "Tell me about Taskin Ahmed",
+        "Taskin records",
+        "Taskin wickets Bangladesh"
+      ],
+      "responses": [
+        "Taskin Ahmed – right‑arm fast; leader of the pace attack. ODI debut 5/28 vs India (2014). Among Bangladesh’s top T20I wicket‑takers (~103–106) and 5th in ODI wickets (117).",
+        "Career bests: Test 6/64; ODI 5/28; T20I 4/16."
+      ]
+    },
+    {
+      "intent": "bd_player_mustafiz",
+      "text": [
+        "Tell me about Mustafizur Rahman",
+        "Mustafiz records",
+        "Mustafiz wickets Bangladesh"
+      ],
+      "responses": [
+        "Mustafizur Rahman – left‑arm fast; known for his variations. ODI debut 5/50 vs India (2015). Among Bangladesh’s top ODI wicket‑takers (135) and T20I wicket‑takers (~132–155).",
+        "Career bests: Test 7/58 (match 12/117), ODI 4/25; batting HS Test 104, ODI 112*."
+      ]
+    },
+    {
+      "intent": "bd_player_mahmudullah",
+      "text": [
+        "Tell me about Mahmudullah Riyad",
+        "Mahmudullah records",
+        "Who is the Silent Killer?",
+        "Mahmudullah World Cup centuries"
+      ],
+      "responses": [
+        "Mahmudullah Riyad (The Silent Killer) – All-rounder. Historic achievements: First Bangladeshi to score a World Cup century (2015). Hero of the 2017 Champions Trophy win vs NZ (102*). Known for finishing tough games.",
+        "Career Highlights: Scored back-to-back centuries in 2015 WC. Retired from T20Is in 2024 and Tests in 2021. Remains a key middle-order batter for ODIs (Champions Trophy 2025 squad)."
+      ]
+    },
+    {
+      "intent": "bd_player_habibul",
+      "text": [
+        "Tell me about Habibul Bashar",
+        "Who is Mr. Fifty?",
+        "Habibul Bashar captaincy record"
+      ],
+      "responses": [
+        "Habibul Bashar Sumon (Mr. Fifty) – Former captain. He led Bangladesh to their first-ever Test match victory (vs Zimbabwe, 2005) and first ODI series win over India (2004). Known for being the most consistent run-scorer in the early Test era.",
+        "Stats: 3,026 ODI runs and 24 half-centuries (hence the nickname 'Mr. Fifty'). Currently serves as a BCB selector."
+      ]
+    },
+    {
+      "intent": "bd_player_ashraful",
+      "text": [
+        "Tell me about Mohammad Ashraful",
+        "Youngest Test centurion details",
+        "Ashraful Cardiff innings",
+        "Ashraful interim coach"
+      ],
+      "responses": [
+        "Mohammad Ashraful – The prodigy. Holds the world record as the youngest player to score a Test century (17 years, 61 days vs Sri Lanka, 2001). Famous for his 100 vs Australia in Cardiff (2005) which led to the historic upset.",
+        "Role: Former captain. Served as interim batting coach for the Ireland series in Nov 2025."
+      ]
+    },
+    {
+      "intent": "bd_player_rafique",
+      "text": [
+        "Tell me about Mohammad Rafique",
+        "First Bangladesh bowler to 100 Test wickets",
+        "Rafique bowling records"
+      ],
+      "responses": [
+        "Mohammad Rafique – Legendary left-arm spinner. He was the first Bangladeshi to take 100 Test wickets and 100 ODI wickets. A key member of the 1997 ICC Trophy winning team and the 1999 World Cup team.",
+        "Style: Accurate spinner and handy lower-order hitter. Man of the Match in Bangladesh's first-ever Test win (2005)."
+      ]
+    },
+    {
+      "intent": "bd_player_hridoy",
+      "text": [
+        "Tell me about Tawhid Hridoy",
+        "Hridoy batting stats",
+        "Young batsman Hridoy"
+      ],
+      "responses": [
+        "Tawhid Hridoy – Right-handed middle-order batter. Emerged as a vital run-scorer in 2023-2025. Key member of the T20 World Cup 2024 and Champions Trophy 2025 squads.",
+        "Known for high strike rates and composure under pressure. Regarded as the future anchor of Bangladesh's batting lineup."
+      ]
+    },
+    {
+      "intent": "bd_player_taijul",
+      "text": [
+        "Tell me about Taijul Islam",
+        "Taijul Islam bowling records",
+        "Best bowling figure by Taijul"
+      ],
+      "responses": [
+        "Taijul Islam – Left-arm orthodox spinner. A Test specialist. Holds the record for the best ODI bowling figures by a Bangladeshi on debut (hat-trick vs Zimbabwe, 2014).",
+        "Test Record: Second/Third highest wicket-taker for Bangladesh in Tests (200+ wickets). Known for long spells and accuracy."
+      ]
+    }
+  ]
+}
